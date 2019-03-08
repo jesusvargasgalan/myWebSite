@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Fuentes de alimentación</title>
+		<link rel="icon" href="../galeria/fuente-de-alimentacion.jpg" type="image/gif" sizes="16x16">
+		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+		<script src="../javascript/validacion.js"></script>
+	</head>
+
+	<body id="formulario">
+		<a href="../index.html">INICIO</a>
+		<form action="../formulario.php" method="get" accept-charset="utf-8" onsubmit="return validarFormulario()">
+
+			<div id="estiloFormulario">
+				<fieldset>
+					<legend>Pongase en contacto con nosotros</legend>
+					<fieldset>
+						
+						<legend>Datos personales</legend>
+						<label for="nombre">Nombre: </label>
+						<br/>
+						<input type="text" name="nombre"  id="nombre">
+						<br/>
+						<label for="apellido">Apellidos: </label>
+						<br/>
+						<input type="text" name="apellido" id="apellido">
+						<br/>
+						<label for="nombre">Correo: </label>
+						<br/>
+						<input type="text" name="correo"  id="correo">
+						
+					</fieldset>
+					<fieldset>
+						<legend>Encuesta</legend> <br>
+						<div>¿Te gusta la página?</div> <br>
+						<input type="radio" name="gusto" id="gusto"> Si </br></br>
+						<input type="radio" name="gusto" id="gusto"> No </br></br>
+						<input type="radio" name="gusto" id="gusto"> Mucho </br></br>
+						<input type="radio" name="gusto" id="gusto"> Puede mejorar </br></br>
+						
+						<div>Dinos por que te ha gustado o deja tu comentario acerca de que podríamos mejorar</div> <br>
+						<textarea id="comentario"  rows="10" cols="30" >
+							
+						</textarea> <br>
+						
+					</fieldset>
+					<input type="submit" name="" value="Enviar">
+				</fieldset>
+				
+			</div>
+			
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "FuentesAlimentacion": [
+    {
+      "fabricante": "B-Move",
+      "tipos": "ATX",
+      "caracteristica": " / -12V - 0.6A / +5VSB - 2.0A ",
+      "modelo": "B-Move 500W Fuente de Alimentación Bulk",
+      "precio": 10.99
+    },
+    {
+      "fabricante": "B-Move",
+      "tipos": "ATX",
+      "caracteristica": "    Intel 4th Gen, procesador “Haswell” ready  Rail simple de 12V+5V - 15A / +3.3V - 22A / +12V - 42A / -12V - 0.5A / +3.3V - 22A / +5VSB - 3.0A ",
+     "modelo": "B-Move BM500TFX 500W",
+      "precio": 23.95
+    },
+    {
+      "fabricante": "Aerocool",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Potencia total: 600 W,Voltaje de entrada AC: 115 - 230 V",
+      "modelo": "AeroCool KCAS 600W 80 Plus Bronze",
+      "precio": 46.99
+    },
+    {
+      "fabricante": "Aerocool",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Potencia total: 800 W,Voltaje de entrada AC: 230 V,Frecuencia de entrada AC: 47 - 53 Hz",
+      "modelo": "Aerocool KCAS 800W 80 Plus Bronze",
+      "precio": 61
+    },
+    {
+      "fabricante": "Aerocool",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Potencia total: 500 W,Voltaje de entrada AC: 115 - 230 V",
+      "modelo": "Aerocool KCAS 500W 80 Plus Bronze",
+      "precio": 37.99
+    },
+    {
+      "fabricante": "Cooler Master",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Potencia total: 650 W,Voltaje de entrada AC: 100 - 240",
+      "modelo": "Cooler Master MWE Bronze 650 650W 80 Plus Bronze",
+      "precio": 43.99
+    },
+    {
+      "fabricante": "Corsair",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Energía 650W,Entrada CA universal de 200~240 V",
+      "modelo": "Corsair VS 650W 80 Plus",
+      "precio": 54.90
+    },
+    {
+      "fabricante": "Corsair",
+      "tipos": "ATX",
+      "caracteristica": "Alimentador de energía para tarjeta madre: 20+4 pin ATX,Potencia nominal: 1000 W,Voltaje de entrada AC: 100 - 240 V",
+      "modelo": "Corsair HX1000 1000W 80 Plus Platinum Modular",
+      "precio":194.99
+    }
+    
+  ]
+}

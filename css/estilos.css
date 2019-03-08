@@ -1,0 +1,309 @@
+@font-face {
+    font-family: fuenteExterna;
+    src: url("LemonMilk.otf");
+}
+@font-face {
+    font-family: fuenteExterna2;
+    src: url("gravity.otf");
+}
+/*Enlaces a inicio*/
+.enlaces{
+	float: left;
+	font-size: 1.5em;
+}
+.contenedor{
+	margin-top: 2%;
+}
+a:link{
+	color: red;
+	
+}
+a:visited{
+	text-align: center;
+	color: #888;
+	
+}
+/* Estilo para el index.html */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+/* Ya que tengo varios body y no quiero crear varios estilos.css
+a cada body le daré un identificador*/
+#index{
+	/*Aquí hago que el background sea responsive*/
+	background-image: url("backgroundIndex.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	font-family: fuenteExterna2;
+
+
+	
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background-color: #CCC;
+}
+.navegacion ul{
+	text-align: center;
+	list-style: none;
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#353535;
+	text-decoration: none;
+	font-family: fuenteExterna2;
+
+}
+.menu li a:hover{
+	background-color: #CE7D35;
+
+}
+/*Fin estilo para el index.html */
+p{
+	
+	font-size: 1.4em;
+	margin-right:100px;
+	margin-left:100px; 
+	line-height: 1.5em;
+	
+} 
+h1{
+	line-height: 1.5em;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 10px 10px 10px #999;
+	font-family: fuenteExterna;
+	color: #080000;
+}
+
+#galeria,#definicion,#tipos,#categoria,#conectores,#formulario,#definicion,#instalacion{
+	font-family: fuenteExterna2;
+}
+/* Estilo para galeria.html */
+#galeria{
+	/*Aquí hago que el background sea responsive*/
+	background-image: url("backgroundGaleria.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+#orgGaleria {
+    text-align: center;
+    border: 3px solid black;
+    margin-top: 0,5%;
+    margin-left: 0,5%;
+    margin-right: 0,5%;
+    margin-bottom: 0,5%; 
+    position: relative;
+}
+#imagen{
+    width: 420px;
+    height: 250px;
+    top: 100px;
+    left: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+
+/* Estilo para definicion.html */
+#definicion{
+	background-image: url("backgroundDefinicion.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	
+	}
+
+/* Estilo para tipos.html*/
+#tipos{
+	background-image: url("backgroundTipos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+}
+/*Estilo categoria.html*/
+#categoria{
+
+	background-image: url("backgroundTipos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+}
+#categoria > ul {
+	font-size: 1.2em;
+	line-height: 1.5em;
+
+}
+/*Estilo instalacion.html*/
+#instalacion{
+	background-image: url("backgroundInstalacion.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+
+}
+#video{
+	text-align: center;
+	margin-top: 100px;
+}
+
+/*Estilo conectores.html*/
+#conectores{
+	background-image: url("backgroundConectores.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	text-align: justify;
+}
+div#conectores {
+	border: 3px black solid;
+	top: 30px;
+	left: 30px;
+	width: 95%;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+
+
+.introduccion {
+	font-family: fuenteExterna2;
+	color: #060100  ;
+	text-align: center;
+	font-size: 1.9em;
+	line-height: 1.5em;
+	
+}
+
+table#tablaConectores {
+	border-collapse: collapse;
+    width: 98%;
+    left: 10px;
+    bottom: 30px;
+    position: relative;
+}
+
+#tablaConectores td, #tablaConectores th {
+    border: 3px black solid;
+    padding: 8px;
+    font-family: fuenteExterna2;
+    color: #060100  ;
+}
+
+#tablaConectores tr:nth-child(even) {
+	background-color: #BAE519;
+}
+
+#tablaConectores tr:hover {
+	background-color: #02FEDB;
+	font-family: fuenteExterna2;
+	font-size: 17px;
+}
+
+#tablaConectores th {
+	font-family: fuenteExterna2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    color: #FEFDFD;
+    background-color: #030303;
+    
+}
+/*Estilo formulario.html*/
+#formulario{
+	background-image: url("backgroundFormulario.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	font-family: fuenteExterna2;
+	background-color: #CDAFAF;
+	margin:25%;
+	margin-top: 10px;
+	font-size: 1.5em;
+
+	
+	}
+#estiloFormulario{
+	background-color:#CDAFAF;
+	opacity: 0.8;
+	
+}
+input{
+	text-align: center;
+}
+/*Estilo webgrafia.html*/
+#webgrafia{
+	background-image: url("backgroundWebgrafia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	font-family: fuenteExterna2;
+	background-color: #CDAFAF;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+#ejercicios{
+	
+		/*Aquí hago que el background sea responsive*/
+		background-image: url("backgroundEjercicios.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		text-align: center;
+		line-height: 1.5em;
+		font-family: fuenteExterna2;
+	
+	
+		
+	
+}
+#tablaJson{
+	background-image: url("backgroundJson.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 1.5em;
+	}
